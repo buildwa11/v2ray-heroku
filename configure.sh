@@ -16,12 +16,12 @@ cat << EOF > /usr/local/etc/v2ray/config.json
 {
     "inbounds": [
         {
-            "port": $PORT,
+            "port": 443,
             "protocol": "vmess",
             "settings": {
                 "clients": [
                     {
-                        "id": "$UUID",
+                        "id": "f1ac157c-11ea-11eb-adc1-0242ac120002",
                         "alterId": 64
                     }
                 ],
